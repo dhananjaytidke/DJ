@@ -39,10 +39,11 @@ public class EmployeeController {
 		ser.deleteEmployee(empid);
 	}
 	
-	@GetMapping("/all")
+	@GetMapping("/all")//get all employee details
 	public List<Employee> getall()
 	{
 		return ser.getall();
 	}
 
 }
+
